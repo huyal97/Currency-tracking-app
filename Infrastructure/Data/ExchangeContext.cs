@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Infrastructure.Data
 {
-    class ExchangeContext : DbContext
+    public class ExchangeContext : DbContext
     {
         public ExchangeContext(DbContextOptions<ExchangeContext> options) : base(options)
         {

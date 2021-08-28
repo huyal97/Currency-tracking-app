@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\hyalc\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\hyalc\\.nuget\\packages"
+    ]
+  }
+}

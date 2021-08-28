@@ -1,19 +1,25 @@
 ﻿using Infrastructure.Entities;
 using Infrastructure.Helper;
 using System;
-using System.IO;
-using System.Xml;
-using System.Xml.Serialization;
+using System.Collections.Generic;
+using System.Text;
 
 namespace Infrastructure
 {
-    class Program
+    public class CurrencyGetter
     {
-        static void Main(string[] args)
+        String UrlString = "https://www.tcmb.gov.tr/kurlar/today.xml";
+        public Currencies GetCurrencies()
         {
-            String URLString = "https://www.tcmb.gov.tr/kurlar/today.xml";
             var deserializer = new XmlDeserializeHelper<Currencies>();
             var deserializeData = deserializer.XmlDeserialize(URLString);
+            return deserializeData;
+
         }
+        
+        
+
+
+        
     }
 }

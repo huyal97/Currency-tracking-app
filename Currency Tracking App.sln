@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{9ABA2747-048E-4D2A-A099-7D469FC480C2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{172CE23C-2E2E-4FB1-9D6E-1CDE107F5A84}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9ABA2747-048E-4D2A-A099-7D469FC480C2} = {9ABA2747-048E-4D2A-A099-7D469FC480C2}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
