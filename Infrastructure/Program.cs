@@ -1,4 +1,5 @@
 ﻿using Infrastructure.Entities;
+using Infrastructure.Helper;
 using System;
 using System.IO;
 using System.Xml;
@@ -11,11 +12,8 @@ namespace Infrastructure
         static void Main(string[] args)
         {
             String URLString = "https://www.tcmb.gov.tr/kurlar/today.xml";
-            XmlSerializer deserializer = new XmlSerializer(typeof(Tarih_Date));
-            XmlReader reader = XmlReader.Create(URLString); 
-            object obj = deserializer.Deserialize(reader);
-            Tarih_Date XmlData = (Tarih_Date)obj;
-            reader.Close();
+            var deserializer = new XmlDeserializeHelper<Currencies>();
+            var deserializeData = deserializer.XmlDeserialize(URLString);
         }
     }
 }
