@@ -14,11 +14,7 @@ namespace API.Controllers
     [Route("[controller]")]
     public class CurrencyController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
-
+        
         private readonly IGenericRepository<Currencies> _currenciesRepository;
 
         public CurrencyController(IGenericRepository<Currencies> currenciesRepository)
@@ -29,11 +25,8 @@ namespace API.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var getter = new CurrencyStarter();
-
-            var currens = getter.GetCurrencies();
-            _currenciesRepository.Add(currens);
-            return Ok(getter);
+            
+            return Ok();
             
         }
     }

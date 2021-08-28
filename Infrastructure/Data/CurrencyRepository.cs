@@ -1,46 +1,49 @@
 ﻿using Infrastructure.Data.Migrations;
+using Infrastructure.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Infrastructure.Data
 {
       
-            public class GenericRepository<T> : IGenericRepository<T> where T : class
+            public class CurrencyRepository : ICurrencyRepository
             {
                 private readonly ExchangeContext _context;
-                public GenericRepository(ExchangeContext context)
+                public CurrencyRepository(ExchangeContext context)
                 {
                     _context = context;
                 }
 
-                public async Task<T> GetByIdAsync(int id)
+                public Currencies GetByIdAsync(int id)
                 {
-                    return await _context.Set<T>().FindAsync(id);
+                    return _context.Set<Currencies>().Find(id);
                 }
 
-                public async Task<IReadOnlyList<T>> ListAllAsync()
-                {
-                    return await _context.Set<T>().ToListAsync();
+                public Currencies ListAll()
+                {          
+                    return _context.Set<Currencies>().Include(r=>r.currencyList).Last();
                 }
 
-                public void Add(T entity)
+                public void Add(Currencies entity)
                 {
-                    _context.Set<T>().Add(entity);
-            _context.SaveChanges();
+                    _context.Set<Currencies>().Add(entity);
+                    _context.SaveChanges();
                 }
-                public void Delete(T entity)
+                public void Delete(Currencies entity)
                 {
-                    _context.Set<T>().Remove(entity);
+                    _context.Set<Currencies>().Remove(entity);
                 }
-                public void Update(T entity)
+                public void Update(Currencies entity)
                 {
-                    _context.Set<T>().Attach(entity);
+                    _context.Set<Currencies>().Attach(entity);
                     _context.Entry(entity).State = EntityState.Modified;
                 }
-            }
+        
+    }
         
     
 }

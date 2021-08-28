@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+7OpVS1WfBJsOgwEOVZNBwBfl/au9VG7kqCKWc5OzPPWCU0y1YnXRy9MrlqtXSYv0CscYaUYRaAFRq7j6bhOug==",
+  "dgSpecHash": "VS/NBw+r9lPIcirFIcoGa1mOrwIdabhihHEs6BEkSkwyWbKowM1Gm4Psx0UhWYgGsexEEGd5z9k/Z3OYI9VRgQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\hyalc\\source\\repos\\Currency Tracking App\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -98,8 +98,7 @@
     "C:\\Users\\hyalc\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\hyalc\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\hyalc\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\hyalc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\hyalc\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.15\\microsoft.netcore.app.host.win-x64.3.1.15.nupkg.sha512"
+    "C:\\Users\\hyalc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }

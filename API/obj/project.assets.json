@@ -5966,9 +5966,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hyalc\\source\\repos\\Currency Tracking App\\API\\API.csproj",
-      "projectName": "API",
-      "projectPath": "C:\\Users\\hyalc\\source\\repos\\Currency Tracking App\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\hyalc\\source\\repos\\Currency Tracking App\\API\\APIs.csproj",
+      "projectName": "APIs",
+      "projectPath": "C:\\Users\\hyalc\\source\\repos\\Currency Tracking App\\API\\APIs.csproj",
       "packagesPath": "C:\\Users\\hyalc\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\hyalc\\source\\repos\\Currency Tracking App\\API\\obj\\",
       "projectStyle": "PackageReference",

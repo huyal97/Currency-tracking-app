@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gCj2fQWxmcItze0dBlB0Cd1bWjHNtCeRdurfjVg/tNWUIp+KL8sVjGo/fo5v4AdcToRb703b/ICYg7aqGAQuBg==",
+  "dgSpecHash": "XmUZcqjd8nRv72rFr5Pt0qM2kEHK5jT/75t0EnTGK4ANxRFavVgFaQZeQIM7tp11o+XsPeD4wsCRLEUcVWSnZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hyalc\\source\\repos\\Currency Tracking App\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\hyalc\\source\\repos\\Currency Tracking App\\API\\APIs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hyalc\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\hyalc\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
