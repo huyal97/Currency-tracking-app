@@ -1,0 +1,13 @@
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.exe
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.runtimeconfig.json
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.runtimeconfig.dev.json
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csprojAssemblyReference.cache
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.genruntimeconfig.cache

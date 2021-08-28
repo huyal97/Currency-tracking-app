@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "yjguyPObWj3Xz5uyAHxtIKWF6kfFUHRRy9Kkxt+bJPXy9biM+zxArttnVFd/k744Xb51XkHhZmyzOWZrfQ/xPw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hyalc\\source\\repos\\Currency Tracking App\\Infrastructure\\Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hyalc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\hyalc\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.15\\microsoft.netcore.app.host.win-x64.3.1.15.nupkg.sha512"
+  ],
+  "logs": []
+}
