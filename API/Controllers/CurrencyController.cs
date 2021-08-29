@@ -10,10 +10,9 @@ namespace API.Controllers
     public class CurrencyController : Controller
     {
 
-        private readonly ICurrencyRepository _currenciesRepository;
-        private readonly ICurrencyGetter _currenyGetter;
+        private readonly ICurrencyRepository _currenciesRepository;     
 
-        public CurrencyController(ICurrencyRepository currenciesRepository,ICurrencyGetter currencyGetter)
+        public CurrencyController(ICurrencyRepository currenciesRepository)
         {
             _currenciesRepository = currenciesRepository;
             _currenyGetter = currencyGetter;
@@ -25,11 +24,11 @@ namespace API.Controllers
         }
         [HttpGet]
         public IActionResult GetLastCurrencies()
-        {
-            _currenyGetter.GetCurrencies();
+        {            
             Currencies currencies = _currenciesRepository.ListAll();
 
             currencies.currencyList.Sort((x, y) => x.Priority.CompareTo(y.Priority));
+
             return View(currencies);
         }
 
