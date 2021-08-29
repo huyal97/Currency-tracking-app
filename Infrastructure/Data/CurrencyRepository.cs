@@ -25,7 +25,7 @@ namespace Infrastructure.Data
 
                 public Currencies ListAll()
                 {          
-                    return _context.Set<Currencies>().Include(r=>r.currencyList).Last();
+                    return _context.Set<Currencies>().Include(r=>r.currencyList).OrderBy(r=>r.Id).Last();
                 }
 
                 public void Add(Currencies entity)

@@ -6,4 +6,4 @@ C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\obj\Debug\netco
 C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
 C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
-C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csprojAssemblyReference.cache
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.AssemblyReference.cache

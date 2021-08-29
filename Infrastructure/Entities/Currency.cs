@@ -12,7 +12,8 @@ namespace Infrastructure.Entities
         [XmlAttribute("CurrencyCode")]
 		public string CurrencyCode { get; set; }
 
-		public string Unit { get; set; }		
+        public int Priority { get; set; }
+        public string Unit { get; set; }		
         public string Isim { get; set; }
         public string CurrencyName { get; set; }		
 		public string ForexBuying { get; set; }		

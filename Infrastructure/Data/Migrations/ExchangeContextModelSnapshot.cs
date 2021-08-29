@@ -65,6 +65,9 @@ namespace Infrastructure.Data.Migrations
                     b.Property<string>("Isim")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Priority")
+                        .HasColumnType("int");
+
                     b.Property<string>("Unit")
                         .HasColumnType("nvarchar(max)");
 

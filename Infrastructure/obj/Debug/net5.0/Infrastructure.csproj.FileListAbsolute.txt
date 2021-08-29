@@ -1,0 +1,12 @@
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\bin\Debug\net5.0\Infrastructure.deps.json
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\bin\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\bin\Debug\net5.0\Infrastructure.pdb
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
+C:\Users\hyalc\source\repos\Currency Tracking App\Infrastructure\obj\Debug\net5.0\Infrastructure.csprojAssemblyReference.cache
