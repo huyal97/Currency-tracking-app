@@ -9,9 +9,13 @@ namespace Infrastructure.Data.Migrations
         public interface ICurrencyRepository
         {
             Currencies GetByIdAsync(int id);
+
             Currencies ListAll();
+
             void Add(Currencies entity);
+
             void Update(Currencies entity);
+
             void Delete(Currencies entity);
         }   
 }

@@ -14,8 +14,7 @@ namespace API.Controllers
 
         public CurrencyController(ICurrencyRepository currenciesRepository)
         {
-            _currenciesRepository = currenciesRepository;
-            _currenyGetter = currencyGetter;
+            _currenciesRepository = currenciesRepository;            
         }
         [HttpGet]
         public IActionResult Index()
@@ -30,8 +29,6 @@ namespace API.Controllers
             currencies.currencyList.Sort((x, y) => x.Priority.CompareTo(y.Priority));
 
             return View(currencies);
-        }
-
-        
+        }    
     }
 }

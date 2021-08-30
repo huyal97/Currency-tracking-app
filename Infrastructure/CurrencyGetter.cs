@@ -11,6 +11,7 @@ namespace Infrastructure
     {
         String UrlString = "https://www.tcmb.gov.tr/kurlar/today.xml";
         ICurrencyRepository _currencyRepository;
+
         public CurrencyGetter(ICurrencyRepository currencyRepository)
         {
             _currencyRepository = currencyRepository;

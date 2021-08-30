@@ -12,11 +12,12 @@ namespace Infrastructure.Helper
 
             XmlSerializer deserializer = new XmlSerializer(typeof(T));
             XmlReader reader = XmlReader.Create(xmlUrl);
+
             object obj = deserializer.Deserialize(reader);
             T XmlData = (T)obj;
             reader.Close();
-            return XmlData;
 
+            return XmlData;
         }
     }
 }

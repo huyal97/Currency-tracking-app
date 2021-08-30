@@ -4,7 +4,7 @@
     ViewData["Title"] = "View";
 }
 
-<h1>View</h1>
+<h1>Güncel Kurlar</h1>
 
 <p>
     <a asp-action="GetLastCurrencies">Verileri Güncelle</a>
@@ -57,21 +57,13 @@
             <td>
                 @Html.DisplayFor(modelItem => item.ForexSelling)
             </td>
-
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
+           
         </tr>
 }
     </tbody>
 </table>
 <script>
     window.setTimeout(function () {
-        //refresh the page after 900,000 miliseconds (15 minutes)
-
-
-        //reload the page (javascript has many ways of doing this)
         location.reload();
-    }, 10000);</script>
+    }, 10000);
+</script>
